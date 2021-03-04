@@ -31,12 +31,13 @@ namespace lab1
                     if (a == 0)
                     {
                         Console.WriteLine("Сoefficient A can not be zero, because it will not be a 3-degree equation");
-
+                        Console.ReadKey();
+                        break;
                     }
                    // solution of the equation for d=0
                        if (d == 0)
                     {
-                          Console.WriteLine("Type of equation for d=0 " + a + "x^3 " + b + "x^2 " + c + "x = 0 ");                      
+                                               
                            x1 = 0; 
                               if((b*b-4*a*c)<0)
                               {
@@ -53,8 +54,7 @@ namespace lab1
                            }
                             else
                            {
-                                double discriminant2 = Math.Sqrt(dis);
-                                 Console.WriteLine("{0:00}",discriminant2);
+                                double discriminant2 = Math.Sqrt(dis);                          
                                  Console.WriteLine("root of the equation x1:{0}", x1);
                                  Console.WriteLine("root of the equation x2:{0}", (-b+"+"+ Math.Round(discriminant2, 1) +"i")+"/"+(2*a));
                                  Console.WriteLine("root of the equation x2:{0:f3}", (-b + "-" +  Math.Round( discriminant2,1) + "i") + "/" + (2 * a));
