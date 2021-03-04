@@ -68,9 +68,9 @@ namespace lab1
                         double p1 = 0, p2 = 0, p3 = 0;
                         Kardano( ref type, ref p1, ref p2, ref p3);
                         if (type == 1)
-                            Console.WriteLine("тип=1. Один вещественный и два комплексно сопряженных корня: x1={0} Re[x2,x3]={1} Im[x2,x3]={2}", Math.Round(p1, 1), Math.Round(p2, 1), Math.Round(p3, 1));
+                            Console.WriteLine("type=1.One real and two complex conjugate roots: x1={0} Re[x2,x3]={1} Im[x2,x3]={2}", Math.Round(p1, 1), Math.Round(p2, 1), Math.Round(p3, 1));
                         else
-                            Console.WriteLine("Вещественные корни: тип={0} p1={1} p2={2} p3={3}", type, Math.Round(p1, 1), Math.Round(p2, 1), Math.Round(p3, 1));
+                            Console.WriteLine("Real roots: type={0} p1={1} p2={2} p3={3}", type, Math.Round(p1, 1), Math.Round(p2, 1), Math.Round(p3, 1));
                            Console.ReadKey();
                     }
                        void Kardano  (ref int type, ref double p1, ref double p2, ref double p3)
