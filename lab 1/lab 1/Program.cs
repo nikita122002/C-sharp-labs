@@ -61,7 +61,7 @@ namespace lab1
                             }
 
                     }
-                    // solution of the equation for d!=0 with using the method of calculating the discriminant by special formulas
+                    // solution of the equation for d!=0 with using the cardano method
                     else
                     {
                         int type = 0;
