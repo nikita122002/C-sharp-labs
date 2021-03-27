@@ -51,13 +51,6 @@ namespace Ugaday_chislo
 
                             if (Int32.TryParse(inp, out k))
                             {
-
-
-                                if (k < 0 || k > 99)
-                                {
-                                    Console.WriteLine("Invalid input.Enter a number from 0 to 99");
-                                    n();
-                                }
                                 if (i < k)
                                 {
                                     Console.WriteLine("A number less than the one you entered");
@@ -66,6 +59,12 @@ namespace Ugaday_chislo
                                 {
                                     Console.WriteLine("Number greater than the number you entered");
                                 }
+                                if (k < 0 || k > 99)
+                                {
+                                    Console.WriteLine("Invalid input.Enter a number from 0 to 99");
+                                    n();
+                                }
+                               
                             }
                             else
                             {
