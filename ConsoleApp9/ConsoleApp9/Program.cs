@@ -38,7 +38,6 @@ namespace Ugaday_chislo
                     Console.WriteLine("The number is odd");
                 }
 
-
                 while (count <= 10)
                 {
                     if (count > 0)
@@ -64,18 +63,13 @@ namespace Ugaday_chislo
                                      {
                                         Console.WriteLine("Invalid input.Enter a number from 0 to 99");
                                         n();
-                                     }
-                               
+                                     }                               
                             }
                             else
                             {
                                 Console.WriteLine("Invalid input format.Read the rools");
                                 n();
                             }
-
-
-
-
                         }
                         //victory
                         if (i == k)
@@ -108,15 +102,13 @@ namespace Ugaday_chislo
                 if (g == 'a')
                 {
                     goto start;
-                   
-                   
+                                      
                 }
                 else
                 {
                     Console.WriteLine(" Thank you for trying out my game.Goodbay");
                     Console.WriteLine(sizeof(long int));
                     Console.ReadLine();
-
                 }
             }
         }
