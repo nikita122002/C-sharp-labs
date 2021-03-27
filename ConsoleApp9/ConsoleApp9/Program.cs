@@ -9,8 +9,7 @@ namespace Ugaday_chislo
     class Program
     {
         static void Main(string[] args)
-        {
-            
+        {            
             start:
             int k = 0;
             char g='a';
@@ -92,7 +91,6 @@ namespace Ugaday_chislo
             }
             // game
             game();
-            Console.WriteLine(sizeof(long int));
             //repeat game
             Console.WriteLine("Try again? (a= Yes, another symbols = No)");
             string inw = Console.ReadLine();
@@ -106,8 +104,7 @@ namespace Ugaday_chislo
                 }
                 else
                 {
-                    Console.WriteLine(" Thank you for trying out my game.Goodbay");
-                    Console.WriteLine(sizeof(long int));
+                    Console.WriteLine(" Thank you for trying out my game.Goodbay");                  
                     Console.ReadLine();
                 }
             }
