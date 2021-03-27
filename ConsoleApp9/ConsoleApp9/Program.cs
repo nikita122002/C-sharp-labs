@@ -10,6 +10,7 @@ namespace Ugaday_chislo
     {
         static void Main(string[] args)
         {
+            
             start:
             int k = 0;
             char g='a';
@@ -55,15 +56,15 @@ namespace Ugaday_chislo
                                 {
                                     Console.WriteLine("A number less than the one you entered");
                                 }
-                                else if (i > k)
-                                {
+                                  else if (i > k)
+                                  {
                                     Console.WriteLine("Number greater than the number you entered");
-                                }
-                                if (k < 0 || k > 99)
-                                {
-                                    Console.WriteLine("Invalid input.Enter a number from 0 to 99");
-                                    n();
-                                }
+                                  }
+                                     if (k < 0 || k > 99)
+                                     {
+                                        Console.WriteLine("Invalid input.Enter a number from 0 to 99");
+                                        n();
+                                     }
                                
                             }
                             else
@@ -97,7 +98,8 @@ namespace Ugaday_chislo
             }
             // game
             game();
-           //repeat game
+            Console.WriteLine(sizeof(long int));
+            //repeat game
             Console.WriteLine("Try again? (a= Yes, another symbols = No)");
             string inw = Console.ReadLine();
             if (Char.TryParse(inw, out g))
@@ -112,7 +114,9 @@ namespace Ugaday_chislo
                 else
                 {
                     Console.WriteLine(" Thank you for trying out my game.Goodbay");
+                    Console.WriteLine(sizeof(long int));
                     Console.ReadLine();
+
                 }
             }
         }
