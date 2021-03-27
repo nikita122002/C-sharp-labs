@@ -25,7 +25,7 @@ namespace Ugaday_chislo
                 Console.WriteLine(" Rools of the game\n1)The number you enter must be between 0 and 99\n" +
                                   "2)The number you enter must be an integer and not a letter or other symbol\n" +
                                   "3)You have 10 attempts to guess the number\n");
-                Console.WriteLine("small hints");
+                Console.WriteLine("Small hints");
                 //hints
                 if (i < 50) Console.WriteLine("Number less than 50");
                 else Console.WriteLine("A number greater than or equal to 50");
