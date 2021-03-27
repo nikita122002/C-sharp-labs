@@ -28,11 +28,11 @@ namespace Ugaday_chislo
                 //hints
                 if (i < 50) Console.WriteLine("Number less than 50");
                 else Console.WriteLine("A number greater than or equal to 50");
-                if (k % 2 == 0)
+                if (i % 2 == 0)
                 {
                     Console.WriteLine("The number is even ");
                 }
-                else if (k % 2 == 1)
+                else if (i % 2 == 1)
                 {
                     Console.WriteLine("The number is odd");
                 }
