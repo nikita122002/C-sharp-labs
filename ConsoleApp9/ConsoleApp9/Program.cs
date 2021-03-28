@@ -10,7 +10,7 @@ namespace Ugaday_chislo
     {
         static void Main(string[] args)
         {            
-            start:
+        
             int k = 0;
             char g='a';
             Random rand = new Random();//Random number creation
@@ -99,7 +99,7 @@ namespace Ugaday_chislo
                 count = 0;
                 if (g == 'a')
                 {
-                    goto start;
+                    game();
                                       
                 }
                 else
