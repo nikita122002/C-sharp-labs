@@ -1,0 +1,7 @@
+C:\Users\nik12\OneDrive\Documents\GitHub\C-sharp-labs\lab2(1)\lab2(1)\obj\Debug\lab2(1).csprojAssemblyReference.cache
+C:\Users\nik12\OneDrive\Documents\GitHub\C-sharp-labs\lab2(1)\lab2(1)\obj\Debug\lab2(1).csproj.CoreCompileInputs.cache
+C:\Users\nik12\OneDrive\Documents\GitHub\C-sharp-labs\lab2(1)\lab2(1)\bin\Debug\lab2(1).exe.config
+C:\Users\nik12\OneDrive\Documents\GitHub\C-sharp-labs\lab2(1)\lab2(1)\bin\Debug\lab2(1).exe
+C:\Users\nik12\OneDrive\Documents\GitHub\C-sharp-labs\lab2(1)\lab2(1)\bin\Debug\lab2(1).pdb
+C:\Users\nik12\OneDrive\Documents\GitHub\C-sharp-labs\lab2(1)\lab2(1)\obj\Debug\lab2(1).exe
+C:\Users\nik12\OneDrive\Documents\GitHub\C-sharp-labs\lab2(1)\lab2(1)\obj\Debug\lab2(1).pdb
