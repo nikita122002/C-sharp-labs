@@ -10,7 +10,7 @@ namespace Ugaday_chislo
     {
         static void Main(string[] args)
         {            
-        
+        //пременные и функция адекватно и сбольшой буквы
             int k = 0;
             char g='a';
             Random rand = new Random();//Random number creation
