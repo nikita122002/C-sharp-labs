@@ -26,11 +26,11 @@ namespace ЛР3_Car
         }
         public void ShowInformation()
         {
-            Console.WriteLine("Количество машин: {0}\n" +
-                "Мощность двигателя: {1}\n" +
-                "Средняя цена: {2}\n" +
-                "Средний масса:{3} \n" +
-                "Тип машины: {4}\n",
+            Console.WriteLine("Number of cars: {0}\n" +
+                "Engine power: {1}\n" +
+                "Average price: {2}\n" +
+                "Average weight:{3} \n" +
+                "Body type: {4}\n",
                numberOfCars, enginePower, price, weight, typeOfCar);
         }
         public void AddNumberOfCars()
@@ -38,7 +38,7 @@ namespace ЛР3_Car
             string newNumberOfCars;
             do
             {
-                Console.Write("Введите новое количество машин: ");
+                Console.Write("Enter the new number of cars: ");
                 newNumberOfCars = Console.ReadLine();
                 Console.Clear();
             } while (!int.TryParse(newNumberOfCars, out numberOfCars));
@@ -46,7 +46,7 @@ namespace ЛР3_Car
         public void TotalPrice()
         {
             totalPrice = numberOfCars * price;
-            Console.WriteLine("Общая цена всех машин: " + totalPrice);
+            Console.WriteLine("Total price of all cars: " + totalPrice);
         }
         class Cars
         {
@@ -78,47 +78,47 @@ namespace ЛР3_Car
             int number = 0;
             do
             {
-                Console.WriteLine("Введите количество машин: ");
+                Console.WriteLine("Enter the number of cars: ");
                 input = Console.ReadLine();
                 Console.Clear();
             } while (!int.TryParse(input, out numberOfCars));
             do
             {
-                Console.WriteLine("Введите мощность двигателя в л.с.: ");
+                Console.WriteLine("Enter the engine power : ");
                 input = Console.ReadLine();
                 Console.Clear();
             } while (!int.TryParse(input, out enginePower));
             do
             {
-                Console.WriteLine("Введите цену одной машины в $: ");
+                Console.WriteLine("Enter the price of one car: ");
                 input = Console.ReadLine();
                 Console.Clear();
             } while (!float.TryParse(input, out price));
             do
             {
-                Console.WriteLine("Введите массу одной машины в кг: ");
+                Console.WriteLine("Enter the weight of one machine: ");
                 input = Console.ReadLine();
                 Console.Clear();
             } while (!float.TryParse(input, out weight));
             do
             {
                 Console.Clear();
-                Console.WriteLine("Выберите тип машины:\n" +
-                    "1. Седан\n" +
-                    "2. Купе\n" +
-                    "3. Универсал\n");
+                Console.WriteLine("Choose a body type:\n" +
+                    "1. Sedan\n" +
+                    "2. Сoupe\n" +
+                    "3. Hatchback\n");
                 input = Console.ReadLine();
             } while (!int.TryParse(input, out number) || (number != 1 && number != 2 && number != 3));
             switch (number)
             {
                 case 1:
-                    typeOfCar = "Седан";
+                    typeOfCar = "Sedan";
                     break;
                 case 2:
-                    typeOfCar = "Купе";
+                    typeOfCar = "Сoupe";
                     break;
                 case 3:
-                    typeOfCar = "Универсал";
+                    typeOfCar = "Hatchback";
                     break;
             };
             Car car = new Car(numberOfCars, enginePower, price, weight, typeOfCar);
@@ -126,10 +126,10 @@ namespace ЛР3_Car
             {
                 do
                 {                  
-                    Console.WriteLine("Выберите действие:\n" +
-                        "1. Вывести информацию\n" +
-                        "2. Изменить количество машин\n" +
-                        "3. Вывести общую цену машин\n");
+                    Console.WriteLine("Select an action:\n" +
+                        "1. Display information\n" +
+                        "2. Change the number of machines\n" +
+                        "3. Print the total price of the cars\n");
                     input = Console.ReadLine();
                 } while (!int.TryParse(input, out number) && (number != 1 || number != 2 || number != 3));
                 switch (number)
