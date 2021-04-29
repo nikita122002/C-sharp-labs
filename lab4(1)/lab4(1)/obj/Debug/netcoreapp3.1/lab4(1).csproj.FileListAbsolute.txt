@@ -1,0 +1,15 @@
+D:\labs c#\lab4(1)\lab4(1)\bin\Debug\netcoreapp3.1\lab4(1).exe
+D:\labs c#\lab4(1)\lab4(1)\bin\Debug\netcoreapp3.1\lab4(1).deps.json
+D:\labs c#\lab4(1)\lab4(1)\bin\Debug\netcoreapp3.1\lab4(1).runtimeconfig.json
+D:\labs c#\lab4(1)\lab4(1)\bin\Debug\netcoreapp3.1\lab4(1).runtimeconfig.dev.json
+D:\labs c#\lab4(1)\lab4(1)\bin\Debug\netcoreapp3.1\lab4(1).dll
+D:\labs c#\lab4(1)\lab4(1)\bin\Debug\netcoreapp3.1\lab4(1).pdb
+D:\labs c#\lab4(1)\lab4(1)\obj\Debug\netcoreapp3.1\lab4(1).csprojAssemblyReference.cache
+D:\labs c#\lab4(1)\lab4(1)\obj\Debug\netcoreapp3.1\lab4_1_.Form1.resources
+D:\labs c#\lab4(1)\lab4(1)\obj\Debug\netcoreapp3.1\lab4(1).csproj.GenerateResource.cache
+D:\labs c#\lab4(1)\lab4(1)\obj\Debug\netcoreapp3.1\lab4(1).AssemblyInfoInputs.cache
+D:\labs c#\lab4(1)\lab4(1)\obj\Debug\netcoreapp3.1\lab4(1).AssemblyInfo.cs
+D:\labs c#\lab4(1)\lab4(1)\obj\Debug\netcoreapp3.1\lab4(1).csproj.CoreCompileInputs.cache
+D:\labs c#\lab4(1)\lab4(1)\obj\Debug\netcoreapp3.1\lab4(1).dll
+D:\labs c#\lab4(1)\lab4(1)\obj\Debug\netcoreapp3.1\lab4(1).pdb
+D:\labs c#\lab4(1)\lab4(1)\obj\Debug\netcoreapp3.1\lab4(1).genruntimeconfig.cache

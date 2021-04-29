@@ -1,0 +1,7 @@
+D:\labs c#\keylogger\keylogger\bin\Debug\keylogger.exe.config
+D:\labs c#\keylogger\keylogger\bin\Debug\keylogger.exe
+D:\labs c#\keylogger\keylogger\bin\Debug\keylogger.pdb
+D:\labs c#\keylogger\keylogger\obj\Debug\keylogger.csprojAssemblyReference.cache
+D:\labs c#\keylogger\keylogger\obj\Debug\keylogger.csproj.CoreCompileInputs.cache
+D:\labs c#\keylogger\keylogger\obj\Debug\keylogger.exe
+D:\labs c#\keylogger\keylogger\obj\Debug\keylogger.pdb

@@ -1,0 +1,10 @@
+﻿  Source.cpp
+D:\labs c#\lab4(1)\Dll\Dll\Source.cpp(8,1): warning C4273: Add: несовместимое связывание dll
+D:\labs c#\lab4(1)\Dll\Dll\Header.h(8,32): message : см. предыдущее определение "Add"
+D:\labs c#\lab4(1)\Dll\Dll\Source.cpp(13,1): warning C4273: Subtract: несовместимое связывание dll
+D:\labs c#\lab4(1)\Dll\Dll\Header.h(10,32): message : см. предыдущее определение "Subtract"
+D:\labs c#\lab4(1)\Dll\Dll\Source.cpp(18,1): warning C4273: Multiply: несовместимое связывание dll
+D:\labs c#\lab4(1)\Dll\Dll\Header.h(12,32): message : см. предыдущее определение "Multiply"
+D:\labs c#\lab4(1)\Dll\Dll\Source.cpp(23,1): warning C4273: Division: несовместимое связывание dll
+D:\labs c#\lab4(1)\Dll\Dll\Header.h(14,32): message : см. предыдущее определение "Division"
+  Dll.vcxproj -> D:\labs c#\lab4(1)\Dll\Debug\Dll.dll
