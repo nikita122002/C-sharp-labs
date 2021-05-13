@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 
 namespace lab5
 {
@@ -156,7 +155,7 @@ namespace lab5
             get { return carColor; }
             set { carColor = value; }
         }
-        public First_driver(int numberOfCars, int enginePower, float price, float weight, string typeOfCar, string carColor) : base(numberOfCars, enginePower, price, weight, typeOfCar) 
+        public First_driver(int numberOfCars, int enginePower, float price, float weight, string typeOfCar, string carColor) : base(numberOfCars, enginePower, price, weight, typeOfCar)
         {
             this.carColor = carColor;
         }
@@ -208,7 +207,7 @@ namespace lab5
             set { eyesColor = value; }
         }
         public Second_driver() { }
-        public Second_driver(int numberOfCars, int enginePower, float price, float weight, string typeOfCar,string eyesColor) : base(numberOfCars, enginePower, price, weight, typeOfCar)
+        public Second_driver(int numberOfCars, int enginePower, float price, float weight, string typeOfCar, string eyesColor) : base(numberOfCars, enginePower, price, weight, typeOfCar)
         {
             this.eyesColor = eyesColor;
         }
@@ -261,7 +260,7 @@ namespace lab5
             float weight;
             string typeOfCar = "";
             string input;
-            int number = 0;          
+            int number = 0;
             do
             {
                 Console.WriteLine("Enter the number of cars: ");
@@ -308,44 +307,44 @@ namespace lab5
                     typeOfCar = "Hatchback";
                     break;
             };
-                Driver driver = new Driver(numberOfCars, enginePower, price, weight, typeOfCar);
-                Second_driver second_driver = new Second_driver(5,100,30,3500,"Sedan","Black");
-                while (true)
+            Driver driver = new Driver(numberOfCars, enginePower, price, weight, typeOfCar);
+            Second_driver second_driver = new Second_driver(5, 100, 30, 3500, "Sedan", "Black");
+            while (true)
+            {
+                do
                 {
-                    do
-                    {
-                        Console.WriteLine("Select an action:\n" +
-                        "1. Display information\n" +
-                        "2. Change the number of machines\n" +
-                        "3. Print the total price of the cars\n " +
-                        "4. Feed\n" +
-                        "5. Dosmh\n" +
-                        "6. Rest\n");
-                        input = Console.ReadLine();
-                    } while (!int.TryParse(input, out number) && (number != 1 || number != 2 || number != 3));
-                    Console.Clear();
-                    switch (number)
-                    {
-                        case 1:
-                            driver.ShowInformation();
-                            break;
-                        case 2:
-                            driver.StateInformation();
-                            break;
-                        case 3:
-                            driver.Feel();
-                            break;
-                        case 4:
-                            driver.Eat();
-                            break;
-                        case 5:
-                            driver.Do_smh();
-                            break;
-                        case 6:
-                            driver.Rest();
-                            break;
-                    }
+                    Console.WriteLine("Select an action:\n" +
+                    "1. Display information\n" +
+                    "2. Change the number of machines\n" +
+                    "3. Print the total price of the cars\n " +
+                    "4. Feed\n" +
+                    "5. Dosmh\n" +
+                    "6. Rest\n");
+                    input = Console.ReadLine();
+                } while (!int.TryParse(input, out number) && (number != 1 || number != 2 || number != 3));
+                Console.Clear();
+                switch (number)
+                {
+                    case 1:
+                        driver.ShowInformation();
+                        break;
+                    case 2:
+                        driver.StateInformation();
+                        break;
+                    case 3:
+                        driver.Feel();
+                        break;
+                    case 4:
+                        driver.Eat();
+                        break;
+                    case 5:
+                        driver.Do_smh();
+                        break;
+                    case 6:
+                        driver.Rest();
+                        break;
                 }
             }
         }
     }
+}
