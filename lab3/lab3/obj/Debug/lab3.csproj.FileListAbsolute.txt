@@ -1,7 +1,0 @@
-C:\Users\nik12\OneDrive\Documents\GitHub\C-sharp-labs\lab3\lab3\bin\Debug\lab3.exe.config
-C:\Users\nik12\OneDrive\Documents\GitHub\C-sharp-labs\lab3\lab3\bin\Debug\lab3.exe
-C:\Users\nik12\OneDrive\Documents\GitHub\C-sharp-labs\lab3\lab3\bin\Debug\lab3.pdb
-C:\Users\nik12\OneDrive\Documents\GitHub\C-sharp-labs\lab3\lab3\obj\Debug\lab3.csprojAssemblyReference.cache
-C:\Users\nik12\OneDrive\Documents\GitHub\C-sharp-labs\lab3\lab3\obj\Debug\lab3.csproj.CoreCompileInputs.cache
-C:\Users\nik12\OneDrive\Documents\GitHub\C-sharp-labs\lab3\lab3\obj\Debug\lab3.exe
-C:\Users\nik12\OneDrive\Documents\GitHub\C-sharp-labs\lab3\lab3\obj\Debug\lab3.pdb
